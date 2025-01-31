@@ -2,6 +2,7 @@
 
 use App\Http\Controllers\Admin\AuthController;
 use App\Http\Controllers\Admin\DashboardController;
+use App\Http\Controllers\Admin\LoaderController;
 use App\Http\Controllers\Admin\ProfileController;
 use App\Http\Controllers\Admin\UserController;
 use App\Http\Middleware\Admin;
@@ -57,6 +58,37 @@ Route::middleware([CheckAuthStatus::class])->group(function () {
             Route::post('update-password', 'updatePassword')->name('update.password');
         });
     });
+
+    // Route::prefix('loader')->name('loader.')->controller(ProfileController::class)->group(function () {
+
+    //     // Admin routes
+    //     Route::middleware(Member::class)->group(function () {
+    //         Route::get('create', 'create')->name('create');
+    //         Route::post('store', 'store')->name('store');
+    //         Route::put('status', 'status')->name('status');
+    //         Route::get('/{id}', 'destroy')->name('destroy');
+    //         // Route::post('update', 'updateProfile')->name('update');
+    //         // Route::post('update-password', 'updatePassword')->name('update.password');
+    //     });
+    // });
+
+    // Route::name('loaders.')
+    //     ->prefix('loaders')
+    //     ->middleware('admin')
+    //     ->controller(LoaderController::class)->group(function () {
+    //         Route::get('/{id}', 'destroy')->name('destroy');
+    //         Route::put('status', 'status')->name('status');
+    //         Route::put('create', 'create')->name('create');
+    //     });
+
+    // Route::name('loaders.')
+    //     ->prefix('loaders')
+    //     ->middleware('manager')
+    //     ->controller(LoaderController::class)->group(function () {
+    //         Route::post('store', 'store')->name('store');
+    //         Route::get('edit/{id}', 'edit')->name('edit');
+    //         Route::put('update/{id}', 'update')->name('update');
+    //     });
 });
 
 

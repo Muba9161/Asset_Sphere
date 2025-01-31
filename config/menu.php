@@ -29,4 +29,16 @@ return [
             ],
         ],
     ],
+
+    'assets' => [
+        'title' => 'Assets',
+        'items' => [
+            [
+                'label' => 'Loader',
+                'icon' => 'fe fe-code',
+                'route' => 'admin.loaders.index',
+                'active' => 'admin/loaders',
+            ],
+        ],
+    ],
 ];

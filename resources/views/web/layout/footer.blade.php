@@ -107,21 +107,27 @@
 <script src="{{ asset('../web/js/main.js') }}"></script>
 
 <script>
+
     function copyCode(code) {
         // Use the modern clipboard API
         navigator.clipboard.writeText(code).then(() => {
             // Show custom alert
             const alertBox = document.getElementById('customAlert');
+
+            // Remove the hidden class and add the show class
+            alertBox.classList.remove('hidden');
             alertBox.classList.add('show');
 
             // Hide the alert after 2 seconds
             setTimeout(() => {
                 alertBox.classList.remove('show');
+                alertBox.classList.add('hidden');
             }, 2000);
         }).catch(err => {
             console.error('Failed to copy text: ', err);
         });
     }
+
 
     const themeToggle = document.getElementById('theme-toggle');
     const body = document.body;

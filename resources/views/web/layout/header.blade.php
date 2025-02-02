@@ -32,6 +32,14 @@
 
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
 
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Pixelify+Sans:wght@400..700&display=swap" rel="stylesheet">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Tangerine:wght@400;700&display=swap" rel="stylesheet">
+
     <!-- Main CSS File -->
     <link href="{{ asset('../web/css/main.css') }}" rel="stylesheet">
     <style>
@@ -50,7 +58,8 @@
             opacity: 0;
             visibility: visible;
             transition: opacity 0.5s ease, visibility 0.5s ease;
-            z-index: 9999; /* Added to ensure alert shows above other elements */
+            z-index: 9999;
+            /* Added to ensure alert shows above other elements */
         }
 
         #customAlert.show {
@@ -60,7 +69,8 @@
         }
 
         .hidden {
-            display: none; /* Changed from visibility:hidden for better behavior */
+            display: none;
+            /* Changed from visibility:hidden for better behavior */
         }
 
         @keyframes slideIn {
@@ -82,7 +92,13 @@
             width: 100%;
             height: 100%;
             object-fit: cover;
-            z-index: 1; /* Added to ensure video stays behind content */
+            z-index: 1;
+            /* Added to ensure video stays behind content */
+        }
+
+        tr,
+        td {
+            padding: 10px
         }
     </style>
 </head>
@@ -102,9 +118,9 @@
                     <li><a href="{{ url('/#hero') }}" class="@yield('website-active-welcome')">Home</a></li>
                     <li><a href="{{ url('/#about') }}">About</a></li>
                     <li><a href="{{ url('/#services') }}">Services</a></li>
-                    <li><a href="{{ url('/#portfolio') }}">Portfolio</a></li>
-                    <li><a href="{{ url('/#team') }}">Team</a></li>
-                    <li class="dropdown">
+                    <li><a href="{{ url('/#poetry') }}">Poetry</a></li>
+                    <li><a href="{{ url('/#loader') }}">Loaders</a></li>
+                    {{-- <li class="dropdown">
                         <a href="#"><span>Dropdown</span> <i class="bi bi-chevron-down toggle-dropdown"></i></a>
                         <ul>
                             <li><a href="#">Dropdown 1</a></li>
@@ -123,7 +139,7 @@
                             <li><a href="#">Dropdown 3</a></li>
                             <li><a href="#">Dropdown 4</a></li>
                         </ul>
-                    </li>
+                    </li> --}}
                     <li><a href="{{ url('/#contact') }}">Contact</a></li>
                 </ul>
                 <i class="mobile-nav-toggle d-xl-none bi bi-list"></i>

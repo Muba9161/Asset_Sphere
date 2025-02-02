@@ -5,10 +5,10 @@
     <!-- Hero Section -->
     <section id="hero" class="hero section dark-background">
 
-        {{-- <img src="{{ asset('../web/img/hero-bg.jpg') }}" alt="" data-aos="fade-in"> --}}
-        <video data-aos="fade-in" class="hero-video" autoplay loop muted>
+        <img src="{{ asset('../web/img/cta-bg.gif') }}" alt="" data-aos="fade-in">
+        {{-- <video data-aos="fade-in" class="hero-video" autoplay loop muted>
             <source src="{{ asset('../web/img/hero-bg.mp4') }}" type="video/mp4">
-        </video>
+        </video> --}}
 
         <div class="container">
 
@@ -63,29 +63,28 @@
 
             <div class="row gy-4">
                 <div class="col-lg-6 order-1 order-lg-2">
-                    <img src="{{ asset('../web/img/about.jpg') }}" class="img-fluid" alt=""
+                    <img src="{{ asset('../web/img/about.gif') }}" class="img-fluid" alt=""
                         style="border-radius: 10px;">
                 </div>
                 <div class="col-lg-6 order-2 order-lg-1 content">
-                    <h3>Voluptatem dignissimos provident</h3>
+                    <h3>AssetSphere: Style it. Sphere it. Slay it.</h3>
                     <p class="fst-italic">
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore
-                        et dolore
-                        magna aliqua.
+                        Tired of wrestling with CSS? AssetSphere is a powerful and intuitive library that streamlines your
+                        workflow, letting you style your web projects faster and easier than ever before. From basic layouts
+                        to complex animations, AssetSphere has you covered.
                     </p>
                     <ul>
-                        <li><i class="bi bi-check2-all"></i> <span>Ullamco laboris nisi ut aliquip ex ea commodo
-                                consequat.</span></li>
-                        <li><i class="bi bi-check2-all"></i> <span>Duis aute irure dolor in reprehenderit in voluptate
-                                velit.</span></li>
-                        <li><i class="bi bi-check2-all"></i> <span>Ullamco laboris nisi ut aliquip ex ea commodo consequat.
-                                Duis aute irure dolor in reprehenderit in voluptate trideta storacalaperda mastiro dolore eu
-                                fugiat nulla pariatur.</span></li>
+                        <li><i class="bi bi-check2-all"></i> <span>Rapid Styling: Get your projects styled quickly with
+                                pre-built components and a streamlined workflow.</span></li>
+                        <li><i class="bi bi-check2-all"></i> <span>Complete Design System: Maintain consistency and
+                                scalability with a comprehensive set of styles and utilities.</span></li>
+                        <li><i class="bi bi-check2-all"></i> <span>Effortless Elegance: Achieve stunning, professional-grade
+                                designs without the CSS complexity.</span></li>
                     </ul>
                     <p>
-                        Ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in
-                        voluptate
-                        velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident
+                        Don't let CSS hold you back. AssetSphere simplifies the styling process without sacrificing power or
+                        flexibility. Whether you're a seasoned pro or just starting out, AssetSphere will help you achieve
+                        professional-grade results with minimal effort.
                     </p>
                 </div>
             </div>
@@ -173,42 +172,45 @@
 
             <div class="row gy-4">
                 <div class="features-video col-lg-6" data-aos="fade-up" data-aos-delay="100">
-                    <video class="img-fluid" autoplay loop muted style="border-radius: 10px;">
-                        <source src="{{ asset('../web/img/AssetSphere.mp4') }}" type="video/mp4">
+                    <img src="{{ asset('../web/img/download_2.gif') }}" alt="" data-aos="fade-in"
+                        style="width:100%; height: 100%; object-fit: cover;">
+                    {{-- <video class="img-fluid" autoplay loop muted style="border-radius: 10px;">
+                        <source src="{{ asset('../web/img/download_2.gif') }}" type="video/mp4">
                         Your browser does not support the video tag.
-                    </video>
+                    </video> --}}
+
                 </div>
                 <div class="col-lg-6">
 
                     <div class="features-item d-flex ps-0 ps-lg-3 pt-4 pt-lg-0" data-aos="fade-up" data-aos-delay="200">
-                        <i class="bi bi-archive flex-shrink-0"></i>
+                        <i class="bi bi-code-slash flex-shrink-0"></i>
                         <div>
-                            <h4>Est labore ad</h4>
-                            <p>Consequuntur sunt aut quasi enim aliquam quae harum pariatur laboris nisi ut aliquip</p>
+                            <h4>Faster Development</h4>
+                            <p>Build responsive sites quickly with pre-built components.</p>
                         </div>
                     </div><!-- End Features Item-->
 
                     <div class="features-item d-flex mt-5 ps-0 ps-lg-3" data-aos="fade-up" data-aos-delay="300">
-                        <i class="bi bi-basket flex-shrink-0"></i>
+                        <i class="bi bi-brush flex-shrink-0"></i>
                         <div>
-                            <h4>Harum esse qui</h4>
-                            <p>Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt</p>
+                            <h4>Consistent Design</h4>
+                            <p>Maintain a unified brand across all projects.</p>
                         </div>
                     </div><!-- End Features Item-->
 
                     <div class="features-item d-flex mt-5 ps-0 ps-lg-3" data-aos="fade-up" data-aos-delay="400">
-                        <i class="bi bi-broadcast flex-shrink-0"></i>
+                        <i class="bi bi-magic flex-shrink-0"></i>
                         <div>
-                            <h4>Aut occaecati</h4>
-                            <p>Aut suscipit aut cum nemo deleniti aut omnis. Doloribus ut maiores omnis facere</p>
+                            <h4>Simplified Styling</h4>
+                            <p>Easy CSS, regardless of your skill level.</p>
                         </div>
                     </div><!-- End Features Item-->
 
                     <div class="features-item d-flex mt-5 ps-0 ps-lg-3" data-aos="fade-up" data-aos-delay="500">
-                        <i class="bi bi-camera-reels flex-shrink-0"></i>
+                        <i class="bi bi-intersect flex-shrink-0"></i>
                         <div>
-                            <h4>Beatae veritatis</h4>
-                            <p>Expedita veritatis consequuntur nihil tempore laudantium vitae denat pacta</p>
+                            <h4>Cross-Browser Ready</h4>
+                            <p>Works perfectly on all devices and browsers.</p>
                         </div>
                     </div><!-- End Features Item-->
 
@@ -235,84 +237,84 @@
                 <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="100">
                     <div class="service-item position-relative">
                         <div class="icon">
-                            <i class="bi bi-activity"></i>
+                            <i class="bi bi-brush"></i>
                         </div>
                         <a href="service-details.html" class="stretched-link">
-                            <h3 class="white-text">Nesciunt Mete</h3>
+                            <h3 class="white-text">Rapid Prototyping & Styling</h3>
                         </a>
-                        <p class="white-text">Provident nihil minus qui consequatur non omnis maiores. Eos accusantium
-                            minus dolores iure
-                            perferendis tempore et consequatur.</p>
+                        <p class="white-text">Accelerate your web development process with AssetSphere's pre-built
+                            components. Quickly prototype and style your projects, saving valuable time and resources. Focus
+                            on functionality, not fighting with CSS.</p>
                     </div>
                 </div><!-- End Service Item -->
 
                 <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="200">
                     <div class="service-item position-relative">
                         <div class="icon">
-                            <i class="bi bi-broadcast"></i>
+                            <i class="bi bi-browser-chrome"></i>
                         </div>
                         <a href="service-details.html" class="stretched-link">
-                            <h3 class="white-text">Eosle Commodi</h3>
+                            <h3 class="white-text">Cross-Browser Compatibility Testing & Support</h3>
                         </a>
-                        <p class="white-text">Ut autem aut autem non a. Sint sint sit facilis nam iusto sint. Libero
-                            corrupti neque eum hic non
-                            ut nesciunt dolorem.</p>
+                        <p class="white-text">Confidently launch your websites knowing they'll look and perform flawlessly
+                            on all major browsers and devices. We ensure AssetSphere component's compatibility, so you don't
+                            have to.</p>
                     </div>
                 </div><!-- End Service Item -->
 
                 <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="300">
                     <div class="service-item position-relative">
                         <div class="icon">
-                            <i class="bi bi-easel"></i>
+                            <i class="bi bi-palette"></i>
                         </div>
                         <a href="service-details.html" class="stretched-link">
-                            <h3 class="white-text">Ledo Markt</h3>
+                            <h3 class="white-text">Consistent Design Systems</h3>
                         </a>
-                        <p class="white-text">Ut excepturi voluptatem nisi sed. Quidem fuga consequatur. Minus ea aut. Vel
-                            qui id voluptas
-                            adipisci eos earum corrupti.</p>
+                        <p class="white-text">Implement and maintain a unified brand identity across all your web
+                            applications. AssetSphere's comprehensive design system ensures visual consistency and
+                            scalability, creating a professional and cohesive user experience.</p>
                     </div>
                 </div><!-- End Service Item -->
 
                 <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="400">
                     <div class="service-item position-relative">
                         <div class="icon">
-                            <i class="bi bi-bounding-box-circles"></i>
+                            <i class="bi bi-bucket"></i>
                         </div>
                         <a href="service-details.html" class="stretched-link">
-                            <h3 class="white-text">Asperiores Commodit</h3>
+                            <h3 class="white-text">Custom Theme Development & Integration</h3>
                         </a>
-                        <p class="white-text">Non et temporibus minus omnis sed dolor esse consequatur. Cupiditate sed
-                            error ea fuga sit
-                            provident adipisci neque.</p>
+                        <p class="white-text">Tailor AssetSphere to perfectly match your brand aesthetic. Our team can
+                            create custom themes or seamlessly integrate existing ones, giving your website a unique and
+                            polished look.</p>
                     </div>
                 </div><!-- End Service Item -->
 
                 <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="500">
                     <div class="service-item position-relative">
                         <div class="icon">
-                            <i class="bi bi-calendar4-week"></i>
+                            <i class="bi bi-magic"></i>
                         </div>
                         <a href="service-details.html" class="stretched-link">
-                            <h3 class="white-text">Velit Doloremque</h3>
+                            <h3 class="white-text">Component Library Expansion & Customization</h3>
                         </a>
-                        <p class="white-text">Cumque et suscipit saepe. Est maiores autem enim facilis ut aut ipsam
-                            corporis aut. Sed animi at
-                            autem alias eius labore.</p>
+                        <p class="white-text">Extend AssetSphere's functionality with custom components tailored to your
+                            specific needs. We can develop new components or modify existing ones to meet your project
+                            requirements.</p>
                     </div>
                 </div><!-- End Service Item -->
 
                 <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="600">
                     <div class="service-item position-relative">
                         <div class="icon">
-                            <i class="bi bi-chat-square-text"></i>
+                            <i class="bi bi-wrench"></i>
                         </div>
                         <a href="service-details.html" class="stretched-link">
-                            <h3 class="white-text">Dolori Architecto</h3>
+                            <h3 class="white-text">Ongoing Maintenance & Support</h3>
                         </a>
-                        <p class="white-text">Hic molestias ea quibusdam eos. Fugiat enim doloremque aut neque non et
-                            debitis iure. Corrupti
-                            recusandae ducimus enim.</p>
+                        <p class="white-text">Benefit from continuous updates, bug fixes, and expert support. We'll keep
+                            AssetSphere running smoothly and help you overcome any challenges, ensuring your projects stay
+                            up-to-date and secure.</p>
                     </div>
                 </div><!-- End Service Item -->
 
@@ -323,181 +325,26 @@
     </section><!-- /Services Section -->
 
     <!-- Call To Action Section -->
-    <section id="call-to-action" class="call-to-action section dark-background">
+    <section id="poetry" class="call-to-action section dark-background">
 
-        <img src="{{ asset('../web/img/cta-bg.jpg') }}" alt="">
+        <img src="{{ asset('../web/img/download.gif') }}" alt="">
 
         <div class="container">
             <div class="row justify-content-center" data-aos="zoom-in" data-aos-delay="100">
                 <div class="col-xl-10">
                     <div class="text-center">
-                        <h3>Call To Action</h3>
-                        <p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
-                            pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt
-                            mollit anim id est laborum.</p>
-                        <a class="cta-btn" href="#">Call To Action</a>
+                        <h3>Programming Poetry</h3>
+                        @foreach ($poetrys as $poetry)
+                            <p style="font-size: 25px; text-transform: capitalize; font-style: italic;">
+                                "{{ $poetry->description }}" </p>
+                        @endforeach
+                        <a class="cta-btn" href="#">Next Poetry</a>
                     </div>
                 </div>
             </div>
         </div>
 
     </section><!-- /Call To Action Section -->
-
-    <!-- Portfolio Section -->
-    <section id="portfolio" class="portfolio section">
-
-        <!-- Section Title -->
-        <div class="container section-title" data-aos="fade-up">
-            <h2>Portfolio</h2>
-            <p>Check our Portfolio</p>
-        </div><!-- End Section Title -->
-
-        <div class="container">
-
-            <div class="isotope-layout" data-default-filter="*" data-layout="masonry" data-sort="original-order">
-
-                <ul class="portfolio-filters isotope-filters" data-aos="fade-up" data-aos-delay="100">
-                    <li data-filter="*" class="filter-active">All</li>
-                    <li data-filter=".filter-app">App</li>
-                    <li data-filter=".filter-product">Card</li>
-                    <li data-filter=".filter-branding">Web</li>
-                </ul><!-- End Portfolio Filters -->
-
-                <div class="row gy-4 isotope-container" data-aos="fade-up" data-aos-delay="200">
-
-                    <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-app">
-                        <img src="{{ asset('../web/img/masonry-portfolio/masonry-portfolio-1.jpg') }}" class="img-fluid"
-                            alt="">
-                        <div class="portfolio-info">
-                            <h4>App 1</h4>
-                            <p>Lorem ipsum, dolor sit</p>
-                            <a href="{{ asset('../web/img/masonry-portfolio/masonry-portfolio-1.jpg') }}" title="App 1"
-                                data-gallery="portfolio-gallery-app" class="glightbox preview-link"><i
-                                    class="bi bi-zoom-in"></i></a>
-                            <a href="portfolio-details.html" title="More Details" class="details-link"><i
-                                    class="bi bi-link-45deg"></i></a>
-                        </div>
-                    </div><!-- End Portfolio Item -->
-
-                    <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-product">
-                        <img src="{{ asset('../web/img/masonry-portfolio/masonry-portfolio-2.jpg') }}" class="img-fluid"
-                            alt="">
-                        <div class="portfolio-info">
-                            <h4>Product 1</h4>
-                            <p>Lorem ipsum, dolor sit</p>
-                            <a href="{{ asset('../web/img/masonry-portfolio/masonry-portfolio-2.jpg') }}"
-                                title="Product 1" data-gallery="portfolio-gallery-product"
-                                class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
-                            <a href="portfolio-details.html" title="More Details" class="details-link"><i
-                                    class="bi bi-link-45deg"></i></a>
-                        </div>
-                    </div><!-- End Portfolio Item -->
-
-                    <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-branding">
-                        <img src="{{ asset('../web/img/masonry-portfolio/masonry-portfolio-3.jpg') }}" class="img-fluid"
-                            alt="">
-                        <div class="portfolio-info">
-                            <h4>Branding 1</h4>
-                            <p>Lorem ipsum, dolor sit</p>
-                            <a href="{{ asset('../web/img/masonry-portfolio/masonry-portfolio-3.jpg') }}"
-                                title="Branding 1" data-gallery="portfolio-gallery-branding"
-                                class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
-                            <a href="portfolio-details.html" title="More Details" class="details-link"><i
-                                    class="bi bi-link-45deg"></i></a>
-                        </div>
-                    </div><!-- End Portfolio Item -->
-
-                    <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-app">
-                        <img src="{{ asset('../web/img/masonry-portfolio/masonry-portfolio-4.jpg') }}" class="img-fluid"
-                            alt="">
-                        <div class="portfolio-info">
-                            <h4>App 2</h4>
-                            <p>Lorem ipsum, dolor sit</p>
-                            <a href="{{ asset('../web/img/masonry-portfolio/masonry-portfolio-4.jpg') }}" title="App 2"
-                                data-gallery="portfolio-gallery-app" class="glightbox preview-link"><i
-                                    class="bi bi-zoom-in"></i></a>
-                            <a href="portfolio-details.html" title="More Details" class="details-link"><i
-                                    class="bi bi-link-45deg"></i></a>
-                        </div>
-                    </div><!-- End Portfolio Item -->
-
-                    <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-product">
-                        <img src="{{ asset('../web/img/masonry-portfolio/masonry-portfolio-5.jpg') }}" class="img-fluid"
-                            alt="">
-                        <div class="portfolio-info">
-                            <h4>Product 2</h4>
-                            <p>Lorem ipsum, dolor sit</p>
-                            <a href="{{ asset('../web/img/masonry-portfolio/masonry-portfolio-5.jpg') }}"
-                                title="Product 2" data-gallery="portfolio-gallery-product"
-                                class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
-                            <a href="portfolio-details.html" title="More Details" class="details-link"><i
-                                    class="bi bi-link-45deg"></i></a>
-                        </div>
-                    </div><!-- End Portfolio Item -->
-
-                    <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-branding">
-                        <img src="{{ asset('../web/img/masonry-portfolio/masonry-portfolio-6.jpg') }}" class="img-fluid"
-                            alt="">
-                        <div class="portfolio-info">
-                            <h4>Branding 2</h4>
-                            <p>Lorem ipsum, dolor sit</p>
-                            <a href="{{ asset('../web/img/masonry-portfolio/masonry-portfolio-6.jpg') }}"
-                                title="Branding 2" data-gallery="portfolio-gallery-branding"
-                                class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
-                            <a href="portfolio-details.html" title="More Details" class="details-link"><i
-                                    class="bi bi-link-45deg"></i></a>
-                        </div>
-                    </div><!-- End Portfolio Item -->
-
-                    <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-app">
-                        <img src="{{ asset('../web/img/masonry-portfolio/masonry-portfolio-7.jpg') }}" class="img-fluid"
-                            alt="">
-                        <div class="portfolio-info">
-                            <h4>App 3</h4>
-                            <p>Lorem ipsum, dolor sit</p>
-                            <a href="{{ asset('../web/img/masonry-portfolio/masonry-portfolio-7.jpg') }}" title="App 3"
-                                data-gallery="portfolio-gallery-app" class="glightbox preview-link"><i
-                                    class="bi bi-zoom-in"></i></a>
-                            <a href="portfolio-details.html" title="More Details" class="details-link"><i
-                                    class="bi bi-link-45deg"></i></a>
-                        </div>
-                    </div><!-- End Portfolio Item -->
-
-                    <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-product">
-                        <img src="{{ asset('../web/img/masonry-portfolio/masonry-portfolio-8.jpg') }}" class="img-fluid"
-                            alt="">
-                        <div class="portfolio-info">
-                            <h4>Product 3</h4>
-                            <p>Lorem ipsum, dolor sit</p>
-                            <a href="{{ asset('../web/img/masonry-portfolio/masonry-portfolio-8.jpg') }}"
-                                title="Product 3" data-gallery="portfolio-gallery-product"
-                                class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
-                            <a href="portfolio-details.html" title="More Details" class="details-link"><i
-                                    class="bi bi-link-45deg"></i></a>
-                        </div>
-                    </div><!-- End Portfolio Item -->
-
-                    <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-branding">
-                        <img src="{{ asset('../web/img/masonry-portfolio/masonry-portfolio-9.jpg') }}" class="img-fluid"
-                            alt="">
-                        <div class="portfolio-info">
-                            <h4>Branding 3</h4>
-                            <p>Lorem ipsum, dolor sit</p>
-                            <a href="{{ asset('../web/img/masonry-portfolio/masonry-portfolio-9.jpg') }}"
-                                title="Branding 2" data-gallery="portfolio-gallery-branding"
-                                class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
-                            <a href="portfolio-details.html" title="More Details" class="details-link"><i
-                                    class="bi bi-link-45deg"></i></a>
-                        </div>
-                    </div><!-- End Portfolio Item -->
-
-                </div><!-- End Portfolio Container -->
-
-            </div>
-
-        </div>
-
-    </section><!-- /Portfolio Section -->
 
     <!-- Stats Section -->
     <section id="stats" class="stats section">
@@ -507,59 +354,59 @@
             <div class="row gy-4 align-items-center justify-content-between">
 
                 <div class="col-lg-5">
-                    <img src="{{ asset('../web/img/stats-img.jpg') }}" alt="" class="img-fluid">
+                    <img src="{{ asset('../web/img/photo.gif') }}" alt="" class="img-fluid">
                 </div>
 
                 <div class="col-lg-6">
 
-                    <h3 class="fw-bold fs-2 mb-3">Voluptatem dignissimos provident quasi</h3>
+                    <h3 class="fw-bold fs-2 mb-3">For the devs in the house: Did you know...?</h3>
                     <p>
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore
-                        et dolore magna aliqua. Duis aute irure dolor in reprehenderit
+                        AssetSphere is lightweight and blazing fast? Optimized CSS for peak performance and a smooth dev
+                        experience.
                     </p>
 
                     <div class="row gy-4">
 
                         <div class="col-lg-6">
                             <div class="stats-item d-flex">
-                                <i class="bi bi-emoji-smile flex-shrink-0"></i>
+                                <i class="bi bi-braces flex-shrink-0"></i>
                                 <div>
-                                    <span data-purecounter-start="0" data-purecounter-end="232"
+                                    <span data-purecounter-start="0" data-purecounter-end="1989"
                                         data-purecounter-duration="1" class="purecounter"></span>
-                                    <p><strong>Happy Clients</strong> <span>consequuntur quae</span></p>
+                                    <p><strong>HTML Invented - </strong> <span>Tim Berners Lee</span></p>
                                 </div>
                             </div>
                         </div><!-- End Stats Item -->
 
                         <div class="col-lg-6">
                             <div class="stats-item d-flex">
-                                <i class="bi bi-journal-richtext flex-shrink-0"></i>
+                                <i class="bi bi-code-slash flex-shrink-0"></i>
                                 <div>
-                                    <span data-purecounter-start="0" data-purecounter-end="521"
+                                    <span data-purecounter-start="0" data-purecounter-end="1996"
                                         data-purecounter-duration="1" class="purecounter"></span>
-                                    <p><strong>Projects</strong> <span>adipisci atque cum quia aut</span></p>
+                                    <p><strong>CSS1 Standardized - </strong> <span>W3C</span></p>
                                 </div>
                             </div>
                         </div><!-- End Stats Item -->
 
                         <div class="col-lg-6">
                             <div class="stats-item d-flex">
-                                <i class="bi bi-headset flex-shrink-0"></i>
+                                <i class="bi bi-terminal flex-shrink-0"></i>
                                 <div>
-                                    <span data-purecounter-start="0" data-purecounter-end="1453"
+                                    <span data-purecounter-start="0" data-purecounter-end="1995"
                                         data-purecounter-duration="1" class="purecounter"></span>
-                                    <p><strong>Hours Of Support</strong> <span>aut commodi quaerat</span></p>
+                                    <p><strong>JavaScript Invented - </strong> <span>Brendan Eich</span></p>
                                 </div>
                             </div>
                         </div><!-- End Stats Item -->
 
                         <div class="col-lg-6">
                             <div class="stats-item d-flex">
-                                <i class="bi bi-people flex-shrink-0"></i>
+                                <i class="bi bi-layout-text-window-reverse flex-shrink-0"></i>
                                 <div>
-                                    <span data-purecounter-start="0" data-purecounter-end="32"
+                                    <span data-purecounter-start="0" data-purecounter-end="2011"
                                         data-purecounter-duration="1" class="purecounter"></span>
-                                    <p><strong>Hard Workers</strong> <span>rerum asperiores dolor</span></p>
+                                    <p><strong>Bootstrap Created - </strong> <span>Mark Otto and Jacob Thornton</span></p>
                                 </div>
                             </div>
                         </div><!-- End Stats Item -->
@@ -575,7 +422,7 @@
     </section><!-- /Stats Section -->
 
     <!-- Team Section -->
-    <section id="team" class="team section">
+    <section id="loader" class="team section">
 
         <!-- Section Title -->
         <div class="container section-title" data-aos="fade-up">
@@ -591,16 +438,9 @@
                     <div class="col-lg-3 col-md-6 d-flex align-items-stretch" data-aos="fade-up" data-aos-delay="100">
                         <div class="team-member">
                             <div class="member-img">
-                                <!-- Video player with autoplay and loop -->
-                                {{-- <video class="img-fluid" autoplay loop muted>
-                                    <source src="{{ $loader->image_link }}" type="video/mp4">
-                                    Your browser does not support the video tag.
-                                </video> --}}
-                                {{-- <iframe src="https://player.vimeo.com/video/{{ $loader->image_link }}" width="261" height="135" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></iframe> --}}
-
-                                <iframe width="261" height="300" src="{{ $loader->image_link }}"></iframe>
-
-
+                                <iframe src="https://giphy.com/embed/{{ $loader->image_link }}" width="261"
+                                    height="300" style="width:261px; height: 300px;" frameBorder="0"
+                                    class="img-fluid"></iframe>
                                 <div class="social">
                                     <a href=""
                                         onclick=" event.preventDefault(); copyCode('{{ $loader->html }}')"><i

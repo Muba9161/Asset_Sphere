@@ -41,4 +41,15 @@ return [
             ],
         ],
     ],
+    'poetrys' => [
+        'title' => 'Poetrys',
+        'items' => [
+            [
+                'label' => 'Verses',
+                'icon' => 'fe fe-code',
+                'route' => 'admin.poetrys.index',
+                'active' => 'admin/poetrys',
+            ],
+        ],
+    ],
 ];

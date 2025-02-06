@@ -136,26 +136,32 @@
                     <div class="swiper-slide"><img src="{{ asset('../web/img/clients/client-2.png') }}" class="img-fluid"
                             alt="">
                     </div>
-                    <div class="swiper-slide"><img src="{{ asset('../web/img/clients/client-1.png') }}" class="img-fluid"
+                    <div class="swiper-slide"><img src="{{ asset('../web/img/clients/client-2.png') }}" class="img-fluid"
+                            alt="">
+                    </div>
+                    <div class="swiper-slide"><img src="{{ asset('../web/img/clients/client-3.png') }}" class="img-fluid"
+                            alt="">
+                    </div>
+                    <div class="swiper-slide"><img src="{{ asset('../web/img/clients/client-4.png') }}" class="img-fluid"
+                            alt="">
+                    </div>
+                    <div class="swiper-slide"><img src="{{ asset('../web/img/clients/client-5.png') }}" class="img-fluid"
                             alt="">
                     </div>
                     <div class="swiper-slide"><img src="{{ asset('../web/img/clients/client-1.png') }}" class="img-fluid"
                             alt="">
                     </div>
-                    <div class="swiper-slide"><img src="{{ asset('../web/img/clients/client-1.png') }}" class="img-fluid"
+                    <div class="swiper-slide"><img src="{{ asset('../web/img/clients/client-2.png') }}" class="img-fluid"
                             alt="">
                     </div>
-                    <div class="swiper-slide"><img src="{{ asset('../web/img/clients/client-1.png') }}" class="img-fluid"
+                    <div class="swiper-slide"><img src="{{ asset('../web/img/clients/client-3.png') }}" class="img-fluid"
                             alt="">
                     </div>
-                    <div class="swiper-slide"><img src="{{ asset('../web/img/clients/client-1.png') }}" class="img-fluid"
+                    <div class="swiper-slide"><img src="{{ asset('../web/img/clients/client-4.png') }}" class="img-fluid"
                             alt="">
                     </div>
-                    <div class="swiper-slide"><img src="{{ asset('../web/img/clients/client-1.png') }}" class="img-fluid"
-                            alt="">
-                    </div>
-                    <div class="swiper-slide"><img src="{{ asset('../web/img/clients/client-1.png') }}" class="img-fluid"
-                            alt="">
+                    <div class="swiper-slide"><img src="{{ asset('../web/img/clients/client-5.png') }}"
+                            class="img-fluid" alt="">
                     </div>
                 </div>
                 <div class="swiper-pagination"></div>
@@ -220,6 +226,55 @@
         </div>
 
     </section><!-- /Features Section -->
+
+    <!-- Team Section -->
+    <section id="loader" class="team section">
+
+        <!-- Section Title -->
+        <div class="container section-title" data-aos="fade-up">
+            <h2>Designs</h2>
+            <p>Loaders</p>
+        </div><!-- End Section Title -->
+
+        <div class="container">
+
+            <div class="row gy-4">
+
+                @foreach ($loaders as $loader)
+                    <div class="col-lg-3 col-md-6 d-flex align-items-stretch justify-content-center" data-aos="fade-up" data-aos-delay="100">
+                        <div class="team-member">
+                            <div class="member-img">
+                                <iframe src="https://giphy.com/embed/{{ $loader->image_link }}" width="261"
+                                    height="300" style="width:261px; height: 300px;" frameBorder="0"
+                                    class="img-fluid"></iframe>
+                                {{-- <button onclick="render()">Render</button> --}}
+                                <div class="social">
+                                    <a href=""
+                                        onclick=" event.preventDefault(); copyCode('{{ $loader->html }}')"><i
+                                            class="fab fa-html5"></i></a>
+                                    <a href=""
+                                        onclick="event.preventDefault(); copyCode('{{ $loader->css }}')"><i
+                                            class="fab fa-css3"></i></a>
+                                    {{-- <a href=""><i class="fab fa-js"></i></a> --}}
+                                </div>
+                            </div>
+
+
+                            <div class="member-info text-center">
+                                <h4>{{ $loader->name }}</h4>
+                                <span>Designed by - AssetSphere</span>
+                            </div>
+                        </div>
+                    </div><!-- End Team Member -->
+                @endforeach
+
+                <div class="text-center">
+                    {{-- <div class="btn btn-danger my-3 px-3 py-3" style="background-color: #00ffcc; color: black; border: 0;">View More</div> --}}
+                    <a class="cta-btn px-3 py-3" href="#" style="border: 1px solid #00ffcc; border-radius: 5px;">View More</a>
+                </div>
+            </div>
+
+    </section><!-- /Team Section -->
 
     <!-- Services Section -->
     <section id="services" class="services section">
@@ -420,49 +475,6 @@
         </div>
 
     </section><!-- /Stats Section -->
-
-    <!-- Team Section -->
-    <section id="loader" class="team section">
-
-        <!-- Section Title -->
-        <div class="container section-title" data-aos="fade-up">
-            <h2>Designs</h2>
-            <p>Loaders</p>
-        </div><!-- End Section Title -->
-
-        <div class="container">
-
-            <div class="row gy-4">
-
-                @foreach ($loaders as $loader)
-                    <div class="col-lg-3 col-md-6 d-flex align-items-stretch" data-aos="fade-up" data-aos-delay="100">
-                        <div class="team-member">
-                            <div class="member-img">
-                                <iframe src="https://giphy.com/embed/{{ $loader->image_link }}" width="261"
-                                    height="300" style="width:261px; height: 300px;" frameBorder="0"
-                                    class="img-fluid"></iframe>
-                                <div class="social">
-                                    <a href=""
-                                        onclick=" event.preventDefault(); copyCode('{{ $loader->html }}')"><i
-                                            class="fab fa-html5"></i></a>
-                                    <a href=""
-                                        onclick="event.preventDefault(); copyCode('{{ $loader->css }}')"><i
-                                            class="fab fa-css3"></i></a>
-                                    {{-- <a href=""><i class="fab fa-js"></i></a> --}}
-                                </div>
-                            </div>
-
-
-                            <div class="member-info text-center">
-                                <h4>{{ $loader->name }}</h4>
-                                <span>Designed by - AssetSphere</span>
-                            </div>
-                        </div>
-                    </div><!-- End Team Member -->
-                @endforeach
-            </div>
-
-    </section><!-- /Team Section -->
 
     <!-- Contact Section -->
     <section id="contact" class="contact section">

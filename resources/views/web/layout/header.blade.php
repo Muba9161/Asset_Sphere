@@ -103,7 +103,7 @@
     </style>
 </head>
 
-<body class="index-page">
+<body class="index-page" >
 
     <header id="header" class="header d-flex align-items-center fixed-top">
         <div class="container-fluid container-xl position-relative d-flex align-items-center justify-content-between">
@@ -117,9 +117,9 @@
                 <ul>
                     <li><a href="{{ url('/#hero') }}" class="@yield('website-active-welcome')">Home</a></li>
                     <li><a href="{{ url('/#about') }}">About</a></li>
+                    <li><a href="{{ url('/#loader') }}">Loaders</a></li>
                     <li><a href="{{ url('/#services') }}">Services</a></li>
                     <li><a href="{{ url('/#poetry') }}">Poetry</a></li>
-                    <li><a href="{{ url('/#loader') }}">Loaders</a></li>
                     {{-- <li class="dropdown">
                         <a href="#"><span>Dropdown</span> <i class="bi bi-chevron-down toggle-dropdown"></i></a>
                         <ul>

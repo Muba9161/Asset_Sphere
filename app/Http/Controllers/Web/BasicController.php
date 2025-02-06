@@ -14,4 +14,8 @@ class BasicController extends Controller
         $poetrys = Poetry::all();
         return view('web.home',compact('loaders', 'poetrys'));
     }
+    public function loader()
+    {
+        return view('web.loader');
+    }
 }

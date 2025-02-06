@@ -72,7 +72,7 @@
     <!-- Copyright Section -->
     <div class="copyright">
         <div class="container text-center">
-            <p>© <span>Copyright</span> <strong class="px-1 sitename">GP</strong> <span>All Rights Reserved</span></p>
+            <p>© <span>Copyright</span> <strong class="px-1 sitename">{{env('APP_NAME')}}</strong> <span>All Rights Reserved</span></p>
             <div class="credits">
                 <!-- All the links in the footer should remain intact. -->
                 <!-- Licensing information: https://bootstrapmade.com/license/ -->
@@ -107,6 +107,11 @@
 <script src="{{ asset('../web/js/main.js') }}"></script>
 
 <script>
+
+    document.addEventListener('DOMContentLoaded', function() {
+        render(); // Call render after the DOM is fully loaded and the hidden textareas are populated by Laravel
+    });
+
 
     function copyCode(code) {
         // Use the modern clipboard API

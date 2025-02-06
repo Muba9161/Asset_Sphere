@@ -6,6 +6,7 @@ use App\Http\Controllers\Admin\LoaderController;
 use App\Http\Controllers\Admin\PoetryController;
 
 Route::get('/', [BasicController::class, 'home']);
+Route::get('/loader', [BasicController::class, 'loader']);
 
 Route::prefix('admin')->name('admin.')->group(function () {
     Route::get('loaders', [LoaderController::class, 'index'])->name('loaders.index');
